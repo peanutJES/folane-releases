@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "updated": "2026-10-28",
+  "usd": 1400,
+  "engine": {
+    "name": "llama.cpp",
+    "build": "b11935",
+    "license": "MIT",
+    "mac-arm64": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-macos-arm64.tar.gz", "size": 16331842, "sha256": "091ff7288f405685d9f81548e0ca5c7e357b85c510c9deec799038bdb128172c", "minOS": "13.3" },
+    "mac-x64": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-macos-x64.tar.gz", "size": 12066889, "sha256": "0e4b8236c206b4d8b5c13cb470f6871fbc9d27912d89b4960043b1bdee458c0d", "minOS": "13.3" },
+    "win-x64-vulkan": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-vulkan-x64.zip", "size": 37178856, "sha256": "55f579da702fd47d0c1587589601e84b075541aafb4761046e135409f02428fc" },
+    "win-x64-cpu": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-cpu-x64.zip", "size": 24255768, "sha256": "d13e3d617a724eef10a533b18d1178b5292f7f1395965adf4e83b1ab4e9fc4b6" },
+    "win-arm64-cpu": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-cpu-arm64.zip", "size": 12872705, "sha256": "fe9db0136dd8f7e39240c90cd1c1107ff59a8ef27c5517472e9d2c4c0dc9511f" }
+  },
+  "models": [
+    {
+      "id": "gemma4-e2b",
+      "name": "Gemma 4 E2B",
+      "tier": "가벼움",
+      "maker": "Google",
+      "license": "Apache 2.0",
+      "file": "gemma-4-E2B-it-Q4_K_M.gguf",
+      "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q4_K_M.gguf",
+      "size": 3106738272,
+      "sha256": "740185b21d22ceb83a11c3aa62ad5842ef32c70f6096d756bbee85a1e4ec34b8",
+      "minRAM": 8,
+      "params": 2,
+      "activeGB": 1.6,
+      "summary": "메모리 8GB 컴퓨터에서도 돌아가요. 낱말 뜻과 짧은 번역은 쓸 만하지만, 긴 글 요약은 빠뜨리는 내용이 생겨요."
+    },
+    {
+      "id": "gemma4-e4b",
+      "name": "Gemma 4 E4B",
+      "tier": "기본",
+      "maker": "Google",
+      "license": "Apache 2.0",
+      "file": "gemma-4-E4B_q4_0-it.gguf",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-gguf/resolve/main/gemma-4-E4B_q4_0-it.gguf",
+      "size": 5154941280,
+      "sha256": "676c35070db6dbe52f93e9c864ee0fba4eddea94b9c875d9cb10daff453fbaee",
+      "minRAM": 12,
+      "params": 4,
+      "activeGB": 2.8,
+      "summary": "메모리 16GB 컴퓨터에 알맞아요. 낱말 설명·번역·짧은 요약을 고르게 해요."
+    },
+    {
+      "id": "gemma4-12b",
+      "name": "Gemma 4 12B",
+      "tier": "좋음",
+      "maker": "Google",
+      "license": "Apache 2.0",
+      "file": "gemma-4-12b-it-qat-q4_0.gguf",
+      "url": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf/resolve/main/gemma-4-12b-it-qat-q4_0.gguf",
+      "size": 6975879296,
+      "sha256": "93567e57a8fe10b23569b9d9ec38cd005deedf71e29477c421a4b83f418a538b",
+      "minRAM": 16,
+      "params": 12,
+      "summary": "학술 글 설명과 번역이 눈에 띄게 나아요. 메모리 16GB면 돌지만 24GB 이상이면 넉넉해요."
+    },
+    {
+      "id": "qwen36-35b-a3b",
+      "name": "Qwen 3.6 35B-A3B",
+      "tier": "최고",
+      "maker": "Alibaba Qwen",
+      "license": "Apache 2.0",
+      "file": "Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
+      "size": 22360456160,
+      "sha256": "707a55a8a4397ecde44de0c499d3e68c1ad1d240d1da65826b4949d1043f4450",
+      "minRAM": 32,
+      "params": 35,
+      "active": 3,
+      "noThink": true,
+      "summary": "내 컴퓨터 AI 가운데 가장 똑똑해요. 크지만 한 번에 일부만 써서 생각보다 빨라요. 메모리 32GB 이상(윈도우는 그래픽 메모리 24GB 이상이면 더 좋아요)."
+    }
+  ],
+  "cloud": [
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "price": "무료로 시작",
+      "detail": "구글 계정으로 AI Studio에서 키를 받으면 결제 정보 없이 Flash 계열 모델을 무료로 써요. 하루·분당 쓸 수 있는 양에 한도가 있고, 무료 사용분은 구글이 서비스 개선에 쓸 수 있어요. 결제를 켜면 한도가 늘고 쓴 만큼 요금이 나가요.",
+      "subscription": "Gemini 앱 구독(Google AI Pro 등)과 API 키는 따로예요.",
+      "example": "낱말 설명 한 번은 무료 한도 안이면 0원이에요.",
+      "link": "https://aistudio.google.com/apikey",
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "id": "openai",
+      "name": "ChatGPT (OpenAI)",
+      "price": "쓴 만큼 결제",
+      "detail": "OpenAI 플랫폼에서 키를 만들고 미리 충전한 금액에서 빠져나가요. mini 모델은 100만 토큰(한국어 약 50만~70만 자)을 읽는 데 1달러 안팎이에요.",
+      "subscription": "ChatGPT Plus·Pro 구독료와는 따로 나가요. 구독 중이어도 API 요금은 별도예요.",
+      "example": "낱말 설명 한 번은 mini 모델로 약 5원, 100쪽 번역은 약 600원 안팎이에요(대략).",
+      "link": "https://platform.openai.com/api-keys",
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "anthropic",
+      "name": "Claude (Anthropic)",
+      "price": "쓴 만큼 결제",
+      "detail": "Claude Console에서 키를 만들고 충전한 금액에서 빠져나가요. Opus 5.5는 100만 토큰 읽기 4달러·쓰기 20달러, Haiku 5.5는 읽기 0.1달러·쓰기 0.5달러예요.",
+      "subscription": "Claude Pro 구독료와는 따로 나가요. 다만 Max 5x를 쓰면 매달 100달러, Max 20x는 200달러어치 API 크레딧을 따로 받아요. claude.ai → 설정 → 결제에서 ‘API 크레딧’에 Console 조직을 이어 주면 돼요(가입 7일 뒤부터, 남은 크레딧은 다음 달로 넘어가지 않아요).",
+      "example": "낱말 설명 한 번은 Opus 5.5로 약 30원, Haiku 5.5로 1원 안팎이에요. 100쪽 번역은 Opus 5.5로 약 3,000원이에요(대략).",
+      "link": "https://platform.claude.com/settings/keys",
+      "credits": "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    }
+  ]
+}
