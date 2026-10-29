@@ -1,16 +1,38 @@
 {
   "version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "usd": 1400,
   "engine": {
     "name": "llama.cpp",
     "build": "b11935",
     "license": "MIT",
-    "mac-arm64": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-macos-arm64.tar.gz", "size": 16331842, "sha256": "091ff7288f405685d9f81548e0ca5c7e357b85c510c9deec799038bdb128172c", "minOS": "13.3" },
-    "mac-x64": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-macos-x64.tar.gz", "size": 12066889, "sha256": "0e4b8236c206b4d8b5c13cb470f6871fbc9d27912d89b4960043b1bdee458c0d", "minOS": "13.3" },
-    "win-x64-vulkan": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-vulkan-x64.zip", "size": 37178856, "sha256": "55f579da702fd47d0c1587589601e84b075541aafb4761046e135409f02428fc" },
-    "win-x64-cpu": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-cpu-x64.zip", "size": 24255768, "sha256": "d13e3d617a724eef10a533b18d1178b5292f7f1395965adf4e83b1ab4e9fc4b6" },
-    "win-arm64-cpu": { "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-cpu-arm64.zip", "size": 12872705, "sha256": "fe9db0136dd8f7e39240c90cd1c1107ff59a8ef27c5517472e9d2c4c0dc9511f" }
+    "mac-arm64": {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-macos-arm64.tar.gz",
+      "size": 16331842,
+      "sha256": "091ff7288f405685d9f81548e0ca5c7e357b85c510c9deec799038bdb128172c",
+      "minOS": "13.3"
+    },
+    "mac-x64": {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-macos-x64.tar.gz",
+      "size": 12066889,
+      "sha256": "0e4b8236c206b4d8b5c13cb470f6871fbc9d27912d89b4960043b1bdee458c0d",
+      "minOS": "13.3"
+    },
+    "win-x64-vulkan": {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-vulkan-x64.zip",
+      "size": 37178856,
+      "sha256": "55f579da702fd47d0c1587589601e84b075541aafb4761046e135409f02428fc"
+    },
+    "win-x64-cpu": {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-cpu-x64.zip",
+      "size": 24255768,
+      "sha256": "d13e3d617a724eef10a533b18d1178b5292f7f1395965adf4e83b1ab4e9fc4b6"
+    },
+    "win-arm64-cpu": {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11935/llama-b11935-bin-win-cpu-arm64.zip",
+      "size": 12872705,
+      "sha256": "fe9db0136dd8f7e39240c90cd1c1107ff59a8ef27c5517472e9d2c4c0dc9511f"
+    }
   },
   "models": [
     {
@@ -90,7 +112,7 @@
       "name": "ChatGPT (OpenAI)",
       "price": "쓴 만큼 결제",
       "detail": "OpenAI 플랫폼에서 키를 만들고 미리 충전한 금액에서 빠져나가요. mini 모델은 100만 토큰(한국어 약 50만~70만 자)을 읽는 데 1달러 안팎이에요.",
-      "subscription": "ChatGPT Plus·Pro 구독료와는 따로 나가요. 구독 중이어도 API 요금은 별도예요.",
+      "subscription": "ChatGPT Plus 구독료와는 따로 나가요. 다만 ChatGPT Pro(100·200·500달러)는 매달 요금제 금액만큼 API 크레딧을 신청해 받을 수 있어요(가입 7일 뒤부터, 남은 크레딧은 다음 달로 넘어가지 않아요). ChatGPT와 OpenAI 플랫폼을 같은 이메일로 써야 해요.",
       "example": "낱말 설명 한 번은 mini 모델로 약 5원, 100쪽 번역은 약 600원 안팎이에요(대략).",
       "link": "https://platform.openai.com/api-keys",
       "source": "https://developers.openai.com/api/docs/pricing"
