@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.19.0](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.19.0-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.19.1](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.19.1-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -195,6 +195,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.19.1** — 글자 정보가 깨진 PDF에서 고른 말로 논문을 찾으면 엉뚱한 말로 찾던 문제 고침(고른 자리를 글자 인식으로 다시 읽음), 결과가 없을 때 안내.
 - **1.19.0** — 관련 논문 찾기를 키 없이 쓰는 OpenAlex로 바꿈(DBpia가 앱에 든 키를 받지 않아 결과가 안 나오던 문제), 같은 논문 묶기.
 - **1.18.2** — 맥 물어보기 칸이 여러 AI를 함께 쓸 때 넘쳐 너비가 안 바뀌던 문제 고침, 맥 시작 화면 최근 PDF 카드 가운데 정렬(윈도우·안드로이드는 1.18.1 그대로).
 - **1.18.1** — 맥 시작 화면 창을 줄이고 옮길 수 있게 고침, 맥에도 떠 있는 도구 막대, 윈도우 물어보기 칸 너비 조절 고침.
