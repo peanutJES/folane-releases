@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.19.2](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.19.2-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.20.0](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.20.0-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -187,6 +187,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 - **인공지능 서비스**: 키를 넣고 AI 기능을 쓸 때만, 고른 말과 그 앞뒤 본문(물어보기 칸에서는 고른 범위의 본문, 첨부한 파일)을 고른 인공지능 서비스 회사(Google·OpenAI·Anthropic)로 보내요. Apple Intelligence와 내 컴퓨터 모델을 고르면 컴퓨터 밖으로 나가지 않아요.
 - **API 키 보관**: AI API키는 그 기기에서만 풀리게 암호화해 둬요(맥은 앱 지원 폴더의 암호화 파일, 윈도우는 DPAPI, 안드로이드는 안드로이드 키 저장소). 다른 기기로 옮겨 가지 않고, 앱 파일을 다른 사람에게 줘도 함께 가지 않아요.
 - **AI 준비**: 모델을 받을 때 GitHub(llama.cpp 실행기)와 Hugging Face(모델 파일)에서 내려받고, 최신 모델·요금 목록을 공개 저장소 folane-releases에서 읽어요. 받은 모델로 묻는 글은 컴퓨터 밖으로 나가지 않아요.
+- **참고문헌 추천**(1.20.0부터): 누를 때만 고른 말과 앞뒤 본문을 연결한 AI 회사로 보내고, AI가 고른 문헌의 제목·저자를 OpenAlex·Crossref·Open Library에 보내 확인해요.
 - **OpenAlex**(1.19.0부터): 관련 논문 찾기를 쓸 때만 검색어(밑줄 친 낱말이나 AI가 고른 검색어)를 OpenAlex에 보내요. 본문은 보내지 않아요. DBpia 키가 공개 목록에 들어 있으면 같은 검색어를 DBpia에도 보내요.
 - **업데이트 확인**: 공개 저장소 folane-releases에서 최신 버전 정보와 설치 파일을 받아 와요. 보내는 것은 없어요.
 - 그 밖의 서버는 없어요. 사용 기록을 모으지 않고, 오류 기록은 그 기기 안에만 남겨요.
@@ -195,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.20.0** — AI 참고문헌 추천: AI가 고른 논문·책을 OpenAlex·Crossref·Open Library에서 확인한 것만 보여 줌.
 - **1.19.2** — 글자 정보가 깨진 PDF에서 밑줄·찾아보기·복사·AI 설명도 화면에 보이는 말로.
 - **1.19.1** — 글자 정보가 깨진 PDF에서 고른 말로 논문을 찾으면 엉뚱한 말로 찾던 문제 고침(고른 자리를 글자 인식으로 다시 읽음), 결과가 없을 때 안내.
 - **1.19.0** — 관련 논문 찾기를 키 없이 쓰는 OpenAlex로 바꿈(DBpia가 앱에 든 키를 받지 않아 결과가 안 나오던 문제), 같은 논문 묶기.
