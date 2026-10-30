@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.20.1](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.20.1-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.20.2](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.20.2-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.20.2** — AI 참고문헌 추천은 그 회사에서 가장 정확한 모델(Opus·GPT pro·Gemini Pro)로.
 - **1.20.1** — 저자 이름으로 찾으면 그 사람의 글을 먼저, 논문마다 초록, 한국어 논문에 ‘DBpia에서 찾기’.
 - **1.20.0** — AI 참고문헌 추천: AI가 고른 논문·책을 OpenAlex·Crossref·Open Library에서 확인한 것만 보여 줌.
 - **1.19.2** — 글자 정보가 깨진 PDF에서 밑줄·찾아보기·복사·AI 설명도 화면에 보이는 말로.
