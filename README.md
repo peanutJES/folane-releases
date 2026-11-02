@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.10](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.10-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.11](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.11-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.21.11** — 문서 번역 진행 창(단계·문단·남은 시간·방금 옮긴 문단), 끝난 뒤 문단 수·걸린 시간, 휴대폰 진행 창이 도구 막대에 안 가림.
 - **1.21.10** — 글자 인식 진행 창(읽는 쪽 그림·막대·쪽·줄·남은 시간), 멈추기(읽은 쪽은 남김), 끝난 뒤 결과 한 줄.
 - **1.21.9** — AI 물어보기 진행 줄(답하는 AI·하는 일·글자 수·흐른 시간), 답 끝 글자 자리, 번역 진행 막대, 답에 걸린 시간, ✦ 설명 카드 기다림 표시.
 - **1.21.8** — 노트 스타일 7가지·미색 종이, 지우개가 노트 줄을 안 지움, 라이브러리 먼저 정하기·노트를 폴더별로, 용량 줄이기 진행·전후 크기 보기, 최근 목록 3개·휴대폰 첫 화면 옆으로 안 밀림.
