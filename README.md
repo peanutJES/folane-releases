@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.3](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.3-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.4](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.4-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.21.4** — 안드로이드 끌어서 도구 자리 바꾸기 고침, 휴대폰에서 ‘내 컴퓨터 AI’ 숨김.
 - **1.21.3** — 켜자마자 새 버전 알림(맥·윈도우·안드로이드).
 - **1.21.2** — Ctrl·⌘+휠 확대·축소, 글자 인식 범위 고르기, 윈도우 툴바 자리 정리·여러 AI 아이콘 겹침 고침.
 - **1.21.1** — 안드로이드 툴바에 ‘다른 PDF 열기’ 단추(새 창으로 열림).
