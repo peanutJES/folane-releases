@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.17](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.17-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.18](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.18-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.21.18** — 번역 글꼴 KoPub(앱에 넣음)·위첨자·저자 줄·제목 「」 안 씌움·초록 고딕, 번역본은 원래 PDF 옆에(모바일), 긴 번역 시간 초과 고침, 학술 용어집, 읽기 속도, 라이브러리 새 분류, AI 함께 쓰기, 따라 하기 1.21.
 - **1.21.17** — 스캔 원서 번역: 큰 첫 글자 덮기, 두 겹 글자 층 한 번만 번역, 기운 스캔 한 문단, 문단 사이 원서 간격, 글자 크기·바탕체.
 - **1.21.16** — 휴대폰 새 노트 창: 자판은 누를 때만, 좁은 화면에 종이 그림 넷씩, 창 안에서 넘기기.
 - **1.21.15** — S펜 지우개 가볍게(선 자르기 다시 짬)·긋는 도중 단추로 지우개, 위키백과가 그은 말 그대로(글자 층 깨짐 판단 완화).
