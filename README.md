@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.22](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.22-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.23](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.23-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.21.23** — 그림 옆 문단은 그림 왼쪽까지만(초록이 그림을 덮지 않게)·초록 한 문단·저자·소속 줄마다, 윈도우 영어 스캔은 Tesseract 영어로, 엉뚱한 AI 답 거르기, 식·잡티는 원문 그대로.
 - **1.21.22** — 그림 낀 스캔 논문 문단째 번역·단 사이 나누기·놓친 글자 덮기, 아이폰·아이패드 Apple 글자 인식, 낱말째 고르기, 메모 Ctrl+B·⌘B.
 - **1.21.21** — 옛 스캔 논문 다시 글자 인식해 번역·수식 그대로, 펜 버벅임 줄임, S펜 단추 지우기 고침, 펜슬 단추 되풀이 고침.
 - **1.21.20** — 뒤로·앞으로 단추, S펜 단추를 누르는 동안 지우개(삼성 노트처럼), 지우개 영역·획·크기·쪽 모두 지우기, 메모의 굵은 글씨.
