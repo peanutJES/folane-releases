@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.20](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.20-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.21](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.21-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.21.21** — 옛 스캔 논문 다시 글자 인식해 번역·수식 그대로, 펜 버벅임 줄임, S펜 단추 지우기 고침, 펜슬 단추 되풀이 고침.
 - **1.21.20** — 뒤로·앞으로 단추, S펜 단추를 누르는 동안 지우개(삼성 노트처럼), 지우개 영역·획·크기·쪽 모두 지우기, 메모의 굵은 글씨.
 - **1.21.19** — 맥 번역본도 위첨자(소속·각주 표시)를 원문대로, 여러 줄 한국어 문단 음절 줄바꿈, 안드로이드 새 버전 받기(403·‘새 버전 아님’) 고침.
 - **1.21.18** — 번역 글꼴 KoPub(앱에 넣음)·위첨자·저자 줄·제목 「」 안 씌움·초록 고딕, 번역본은 원래 PDF 옆에(모바일), 긴 번역 시간 초과 고침, 학술 용어집, 읽기 속도, 라이브러리 새 분류, AI 함께 쓰기, 따라 하기 1.21.
