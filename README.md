@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.24](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.24-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.25](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.25-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.21.25** — 접는 휴대폰(갤럭시 폴드 등)을 펼치거나 접을 때·화면을 돌리거나 분할 화면 크기를 바꿀 때 쪽을 새 폭에 다시 맞춤(보던 자리 유지).
 - **1.21.24** — 끌어 고를 때 끝은 손 뗀 자리 그대로, 사양 낮은 기기에서 넘기기 덜 버벅임(메모 칸 자리만 옮기기·보이는 쪽만 재기·쪽 그림 크기 낮추기).
 - **1.21.23** — 그림 옆 문단은 그림 왼쪽까지만(초록이 그림을 덮지 않게)·초록 한 문단·저자·소속 줄마다, 윈도우 영어 스캔은 Tesseract 영어로, 엉뚱한 AI 답 거르기, 식·잡티는 원문 그대로.
 - **1.21.22** — 그림 낀 스캔 논문 문단째 번역·단 사이 나누기·놓친 글자 덮기, 아이폰·아이패드 Apple 글자 인식, 낱말째 고르기, 메모 Ctrl+B·⌘B.
