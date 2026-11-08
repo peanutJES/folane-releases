@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.26](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.26-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.27](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.27-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.21.27** — 밑줄 도구 창의 AI 묻기는 AI 창에서 답(메모는 접고 대화는 메모에도), AI 답에 굵은 글씨, 묻는 칸 굵게·기울임, 답에서 고른 부분 이어 묻기.
 - **1.21.26** — 메모 하나씩 접기, 메모의 AI 대화를 AI 창에서 이어 하기, AI 창은 범위 고르기 없이 문서 전체 읽기, + 첨부 판(한글·워드·엑셀·파워포인트 읽기, 기기에 깔린 프로그램 아이콘).
 - **1.21.25** — 접는 휴대폰(갤럭시 폴드 등)을 펼치거나 접을 때·화면을 돌리거나 분할 화면 크기를 바꿀 때 쪽을 새 폭에 다시 맞춤(보던 자리 유지).
 - **1.21.24** — 끌어 고를 때 끝은 손 뗀 자리 그대로, 사양 낮은 기기에서 넘기기 덜 버벅임(메모 칸 자리만 옮기기·보이는 쪽만 재기·쪽 그림 크기 낮추기).
