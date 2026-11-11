@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.21.29](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.21.29-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.22.0](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.22.0-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.22.0** — 번역본에서 고른 글의 원문 문장 보기(‘원문 보기’ 카드·원문 메모·원문 복사), 번역할 때 원문·번역 문단 짝을 PDF에 함께 저장.
 - **1.21.29** — ⌘F·Ctrl+F로 문서 안 찾기 칸에 바로 치기(한글 입력 상태 포함), 맥에서 Dock으로 내려 둔 창을 아이콘으로 다시 올리기.
 - **1.21.28** — 메모 쪽지를 다른 쪽으로 끌어 옮기기(전에는 아이콘이 사라짐), 메모를 고칠 때 글이 밀리던 원인 막기, 고치던 메모를 지울 때 오류.
 - **1.21.27** — 밑줄 도구 창의 AI 묻기는 AI 창에서 답(메모는 접고 대화는 메모에도), AI 답에 굵은 글씨, 묻는 칸 굵게·기울임, 답에서 고른 부분 이어 묻기.
