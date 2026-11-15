@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.3](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.3-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.4](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.4-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.26.4** — 긴 문서는 AI에게 읽을 쪽을 골라 묻기(지금 쪽 둘레·처음부터·직접 정하기), 문서 번역에서 책 목차·그림·표 목록을 항목마다 제자리에, 스캔 위 글자 층이 정확하면 그대로 써서 오독 줄임, 제목 앞 잡티 글자 떼기.
 - **1.26.3** — 안드로이드 ChatGPT 로그인 ‘보안 연결에 실패’ 오류 손봄(실패하면 원인 종류 표시), 업데이트 안내 창·둘러보기 창 끌어 옮기기, ‘개인정보 보호 및 보안’ 이름.
 - **1.26.2** — 안드로이드도 ChatGPT 구독으로 로그인, 업데이트 뒤 ChatGPT 구독 안내를 맨 앞에, 새로운 기능 창·내 컴퓨터 AI 칸을 애플식으로, ChatGPT 공식 로고.
 - **1.26.1** — 툴바에 옵시디언 단추, 옵시디언 처음 쓰는 사람 안내·노트 모양 미리 보기, AI 준비를 AI 설정의 ‘내 컴퓨터 AI’ 칸으로 합침, 툴바 꾸미기 넓게.
