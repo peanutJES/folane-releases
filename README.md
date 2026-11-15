@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.1](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.1-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.2](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.2-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.26.2** — 안드로이드도 ChatGPT 구독으로 로그인, 업데이트 뒤 ChatGPT 구독 안내를 맨 앞에, 새로운 기능 창·내 컴퓨터 AI 칸을 애플식으로, ChatGPT 공식 로고.
 - **1.26.1** — 툴바에 옵시디언 단추, 옵시디언 처음 쓰는 사람 안내·노트 모양 미리 보기, AI 준비를 AI 설정의 ‘내 컴퓨터 AI’ 칸으로 합침, 툴바 꾸미기 넓게.
 - **1.26.0** — 맥·윈도우에서 옵시디언으로 보내기(문헌 노트·Folane으로 돌아오는 링크·다시 보내도 내 글 보존·연구 일지·서재 표·인용 복사), 따라가기가 읽는 낱말만 칠하기, ChatGPT 구독을 여러 AI 함께 쓰기에, AI 준비 창 새 모양.
 - **1.25.0** — 맥·윈도우에서 ChatGPT 구독으로 로그인해 API 키 없이 쓰기, Claude Max 크레딧 안내, AI 설정 창 새 배치와 반응 효과, 다른 쪽 메모 접어 남기기, 바뀐 점 ‘직접 보기’(그 자리에 테두리), 휴대폰도 업데이트 뒤 바뀐 점 표시, 붙여 적은 원어 건너뛰어 읽기.
