@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.9](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.9-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.10](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.10-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.26.10** — 휴대폰에서 접은 펜 막대를 색 점 크기로, 안드로이드 바뀐 점 창이 두 번 뜨던 문제 고침.
 - **1.26.9** — 문서를 다시 열면 지난번에 보던 쪽으로 열기.
 - **1.26.8** — 펜·지우개 막대를 색 점 하나로 접어 두기(펜으로 쓰다 막대를 잘못 누르지 않게).
 - **1.26.7** — 첫 화면 최근 문서가 맥에서도 다시 보임, ‘최근에 연 문서 보이기’ 스위치로 기록 끄기.
