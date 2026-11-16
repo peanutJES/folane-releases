@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.7](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.7-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.26.8](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.26.8-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -196,6 +196,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.26.8** — 펜·지우개 막대를 색 점 하나로 접어 두기(펜으로 쓰다 막대를 잘못 누르지 않게).
 - **1.26.7** — 첫 화면 최근 문서가 맥에서도 다시 보임, ‘최근에 연 문서 보이기’ 스위치로 기록 끄기.
 - **1.26.6** — 스캔 그림 아래 글자 층이 있는 책 번역이 원문과 겹치지 않음, 들여 쓴 새 문단 따로 옮기기, 맥 AI 바꾸기 메뉴 선택 표시.
 - **1.26.5** — 안드로이드 ChatGPT 로그인 마무리를 앱이 앞으로 온 뒤에 보내고 인터넷이 끊기면 한 번 더 시도, 실패하면 막힌 단계 표시.
