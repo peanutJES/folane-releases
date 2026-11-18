@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.32.1](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.32.1-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.32.2](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.32.2-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -197,6 +197,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.32.2** — 고른 글 막대에 하이라이트 단추, 맥에서 넘기기·확대 버벅임 줄임.
 - **1.32.1** — 칠한 표시를 하이라이트·밑줄·취소선 사이에서 바꾸기, 칠한 막대에 복사, 맥 확대 때 표시 선명하게, 1.32.0의 끌면 바로 칠하기 되돌림.
 - **1.32.0** — 펜 글씨 매끄럽게(누르는 힘 윤곽), 꾹 눌러 원·타원·사각형·삼각형 도형 보정.
 - **1.31.1** — 분야 용어집 번역어마다 출처 링크(우리말샘·학술 논문·번역서, 334개), 근거 없는 번역어 12개 빼고 표기 9개 바로잡기.
