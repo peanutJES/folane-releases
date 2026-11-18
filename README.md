@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.29.1](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.29.1-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.30.0](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.30.0-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -154,6 +154,7 @@ Folane에는 AI 모델이 들어 있지 않아요. **AI 준비**에서 이 컴�
 | Gemini (구글) | 구글 계정으로 받는 API 키 | 무료 키로 쓸 수 있어요 |
 | ChatGPT (OpenAI) | OpenAI API 키 | 쓴 만큼 요금 |
 | Claude (Anthropic) | Anthropic API 키 | 쓴 만큼 요금 |
+| Grok (xAI) | xAI API 키 | 쓴 만큼 요금. SuperGrok 구독과 따로예요 |
 | Folane에 받은 모델 (Gemma 4 · Qwen 3.6) | 필요 없음 | 무료. AI 준비에서 받아요. 맥은 macOS 13.3 이상 |
 | LM Studio · Ollama | 필요 없음 | 무료. 내 컴퓨터에서 돌아요 |
 
@@ -196,6 +197,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.30.0** — Grok(xAI)을 API 키로 연결, AI 설정의 ‘답하는 AI’를 API 키·구독 로그인·이 기기로 나눠 보여 주기.
 - **1.29.1** — 짧은 낱말에 표시하면 글이 엉뚱하게 바뀌던 문제(글자 층 판정을 쪽 전체 비교로).
 - **1.29.0** — 위키백과 출처·CC BY-SA 표시, AI 답 신고, 오픈소스 라이선스 화면. Microsoft Store판 준비(스토어판은 스토어 업데이트·AI 보내기 동의).
 - **1.28.0** — 옵시디언에 자동으로 남기기(모든 문서), 메모·AI 대화 따로 고르기, 물어보기 칸 대화도 노트의 ‘AI 대화’ 칸에, AI 창에 옵시디언 표시.

@@ -127,6 +127,16 @@
       "link": "https://platform.claude.com/settings/keys",
       "credits": "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "xai",
+      "name": "Grok (xAI)",
+      "price": "쓴 만큼 결제",
+      "detail": "xAI 콘솔에서 키를 만들고 충전한 금액에서 빠져나가요. 모델마다 값이 달라서 xAI 가격표에서 확인해 주세요.",
+      "subscription": "SuperGrok·X Premium 구독료와는 따로 나가요. 구독 계정으로 로그인하는 방식은 xAI에 사용 허락을 문의하는 중이에요.",
+      "example": "빠른(fast) 모델을 고르면 요금이 적게 나가요.",
+      "link": "https://console.x.ai",
+      "source": "https://docs.x.ai/docs/models"
     }
   ]
 }
