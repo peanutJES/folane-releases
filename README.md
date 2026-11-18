@@ -30,7 +30,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.30.1](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.30.1-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.31.0](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.31.0-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -197,6 +197,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.31.0** — 글상자 안에서 고른 글만 굵게·글자 크기(pt) 바꾸기(맥·윈도우·안드로이드, PDF에 저장).
 - **1.30.1** — 문서 번역 분야에 문화인류학(한국문화인류학회 원고 작성요령 표기, 국내 인류학 번역어 44개).
 - **1.30.0** — Grok(xAI)을 API 키로 연결, AI 설정의 ‘답하는 AI’를 API 키·구독 로그인·이 기기로 나눠 보여 주기.
 - **1.29.1** — 짧은 낱말에 표시하면 글이 엉뚱하게 바뀌던 문제(글자 층 판정을 쪽 전체 비교로).
