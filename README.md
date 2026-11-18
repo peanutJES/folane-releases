@@ -4,6 +4,10 @@
 
 <p align="center">밑줄을 긋고, 모르는 말은 AI와 백과사전으로 바로 찾아보고, 나만의 메모는 옆 여백 칸에 알아서! PDF 리더<br>macOS · Windows · Android</p>
 
+<p align="center">논문·리딩 과제 PDF에 하이라이트와 메모를 남기는 무료 PDF 리더예요. 영어 원서 PDF 번역, 한글(hwp·hwpx) 문서 열기도 돼요.<br><a href="https://peanutjes.github.io/folane-website/">웹사이트</a> · <a href="https://apps.microsoft.com/detail/9PJK6FT8Q7TT">Microsoft Store</a> · <a href="../../releases/latest">최신 버전 받기</a></p>
+
+<p align="center"><sub>Free PDF reader for research papers and course readings: highlights and notes saved inside the PDF, layout-preserving PDF translation, and AI from your own API key or on-device models. macOS · Windows · Android.</sub></p>
+
 ---
 
 ## 이름
@@ -29,6 +33,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 |---|---|---|
 | 맥 | `Folane-<버전>-mac.dmg` | macOS 11(빅서) 이상, 애플 실리콘·인텔 |
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
+| 윈도우 | [Microsoft Store](https://apps.microsoft.com/detail/9PJK6FT8Q7TT) (업데이트를 스토어가 맡아요. 인증 때문에 새 버전이 며칠 늦을 수 있어요) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
 | 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.32.2](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.32.2-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
