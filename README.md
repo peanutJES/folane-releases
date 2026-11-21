@@ -35,7 +35,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | [Microsoft Store](https://apps.microsoft.com/detail/9PJK6FT8Q7TT) (업데이트를 스토어가 맡아요. 인증 때문에 새 버전이 며칠 늦을 수 있어요) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.33.1](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.33.1-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.33.2](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.33.2-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -202,6 +202,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.33.2** — 저자·제목만으로 문헌 찾기, 무료 원문·도서 구매(알라딘·교보문고·YES24·네이버 책·다음 책) 링크, 안드로이드 툴바 꾸미기 화면 고침.
 - **1.33.1** — 각주 번호를 누르면 그 각주로(쪽 아래·다음 쪽·문서 뒤 ‘주’).
 - **1.33.0** — 본문 인용을 누르면 문서 뒤 참고문헌 항목으로(뒤로 가기로 복귀).
 - **1.32.7** — 참고문헌·각주 표기를 고르면 그 문헌을 찾아 이어 줌(못 찾으면 학술검색·DBpia·RISS·국립중앙도서관 링크).
