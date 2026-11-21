@@ -35,7 +35,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | [Microsoft Store](https://apps.microsoft.com/detail/9PJK6FT8Q7TT) (업데이트를 스토어가 맡아요. 인증 때문에 새 버전이 며칠 늦을 수 있어요) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.33.3](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.33.3-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.33.4](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.33.4-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -202,6 +202,7 @@ ChatGPT Plus나 Claude Pro 같은 채팅 구독으로는 API를 쓸 수 없어�
 
 버전마다 자세한 내용은 [Releases](../../releases)에 있어요.
 
+- **1.33.4** — 번역서를 역자·출판사·연도로 판본까지 찾기, 한글 저자 이름 표시, 책·논문 구분.
 - **1.33.3** — 한국어 책을 국립중앙도서관 국가서지에서 찾기(ISBN·출판사), 목록에 없으면 AI가 서지를 정리해 다시 찾기, ‘없다’ 대신 후보·바로 찾기.
 - **1.33.2** — 저자·제목만으로 문헌 찾기, 무료 원문·도서 구매(알라딘·교보문고·YES24·네이버 책·다음 책) 링크, 안드로이드 툴바 꾸미기 화면 고침.
 - **1.33.1** — 각주 번호를 누르면 그 각주로(쪽 아래·다음 쪽·문서 뒤 ‘주’).
