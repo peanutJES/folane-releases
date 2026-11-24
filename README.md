@@ -35,7 +35,7 @@ Mac OS를 기반으로 먼저 만들고, 같은 기능의 Windows 버전을 이�
 | 윈도우 | `Folane-Setup-<버전>.exe` (설치 버전_권장) | 윈도우 10·11, 64비트 |
 | 윈도우 | [Microsoft Store](https://apps.microsoft.com/detail/9PJK6FT8Q7TT) (업데이트를 스토어가 맡아요. 인증 때문에 새 버전이 며칠 늦을 수 있어요) | 윈도우 10·11, 64비트 |
 | 윈도우 | `Folane-Portable-<버전>.exe` (설치 없이 실행, 1.13.1까지만) | 윈도우 10·11, 64비트 |
-| 안드로이드 | [`Folane-<버전>-android.apk`](android/) (이 저장소의 `android` 폴더, 최신: [1.33.5](https://github.com/peanutJES/folane-releases/raw/main/android/Folane-1.33.5-android.apk)) | 안드로이드 8 이상, 휴대폰·태블릿 |
+| 안드로이드 | [`Folane-<버전>-android.apk`](../../releases/latest) (최신 릴리스의 Assets) | 안드로이드 8 이상, 휴대폰·태블릿 |
 
 `latest-mac.json`, `latest.yml`, `.blockmap`은 앱이 업데이트를 확인할 때 읽는 파일이라 받지 않아도 돼요.
 
@@ -55,14 +55,23 @@ Folane은 개인이 만들어 무료로 나눠 쓰는 앱이에요. 앱 스토�
 |---|---|---|
 | 마이크 | 메모에 ‘음성 녹음’·‘말로 메모 쓰기’를 처음 쓸 때 | 목소리를 녹음해 그 PDF에 넣으려고. 녹음은 기기 밖으로 나가지 않아요(받아쓰기를 AI로 할 때만 그 AI 회사로 가요) |
 | 음성 인식(맥) | 맥에서 받아쓰기를 처음 쓸 때 | 맥의 받아쓰기로 녹음을 글로 바꾸려고 |
-| 파일·폴더 | PDF를 열거나 내 라이브러리 폴더를 고를 때 | 고른 파일과 폴더만 읽고 쓰려고. 다른 파일은 보지 않아요 |
+| 파일·폴더 | PDF를 열거나 라이브러리·Drive 동기화 폴더를 고를 때 | 고른 파일과 폴더만 읽고 쓰려고. 다른 파일은 보지 않아요 |
 | 알림·설치(안드로이드) | 새 버전을 받아 설치할 때 | 받은 APK를 설치 창으로 넘기려고 |
 
 **Folane이 밖으로 보내는 것**은 아래 경우뿐이에요. 사용 기록을 모으지 않고 광고도 없어요.
 - 위키백과·나무위키로 찾아볼 때: 밑줄 친 낱말
 - AI를 쓸 때: 고른 글과 그 앞뒤 본문을, 키를 넣은 AI 회사(Google·OpenAI·Anthropic)로. Apple Intelligence와 내 컴퓨터 모델은 기기 밖으로 나가지 않아요
 - 관련 논문 찾기: 검색어만 OpenAlex로(DBpia 키를 넣어 둔 경우에는 DBpia에도)
+- Google Drive 동기화: 동기화를 켜면 지정한 폴더의 PDF와 파일 이름·크기 등 동기화 정보가 연결한 Google 계정의 Drive로 전송돼요. [개인정보 처리방침](https://peanutjes.github.io/folane-website/privacy.html#google-drive)
 - 업데이트 확인: 이 저장소에서 버전 정보만 받아 와요(보내는 것 없음)
+
+### Google Drive 동기화
+
+시작 화면에서 **내 기기의 라이브러리**와 **Google Drive**를 각각 열 수 있어요. 다른 기기에서도 볼 PDF는 **Google Drive** 화면에 넣으세요.
+
+1. 시작 화면에서 **Google Drive 연결**을 누르고 Google 계정을 선택해요.
+2. 기기의 Drive 동기화 폴더를 지정해요. Google Drive에서는 기본 **Folane** 폴더를 쓰거나 내 드라이브에서 다른 폴더를 고를 수 있어요.
+3. **동기화 시작**을 누른 뒤 **PDF 넣기**로 문서를 추가해요. 다른 기기도 같은 계정에 연결해 같은 Drive 폴더를 고르면 앱이 실행되는 동안 PDF와 저장된 표시를 맞춰요.
 
 ### 안드로이드 버전
 
